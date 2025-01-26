@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("bg.jpg");
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.abt {
+  font-size: 20px;
+  text-align: center;
+  /* margin-bottom: 10px; */
+  
+}
