@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* .container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Navigation Bar */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.navbar {
+  background-color: #fb8100ff;
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 10px 0;
+}
+
+p {
+  color: rgb(89, 48, 4);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 3.5rem; /* Space between the links */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #db5f23ff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-logo {
+  height: 90px; /* Increase the height of the logo */
+  width: 80px; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between the logo and the text */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: black;
+}
+
+/* Quote */
+
+.quote {
+  background: linear-gradient(to left, #d8d2cc, #eba985);
+}
+.quote img:hover {
+  transform: scale(1.05); /* Slight zoom */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quote img {
+  display: block;
+  margin-left: auto;
+  margin-right: 15rem;
+  height: 38rem;
+  width: 58rem;
+  max-width: 100%;
+}
+
+/* .quote img {
+  display: block; 
+  margin-left: auto;
+  margin-right: 0; 
+  height: 38rem;
+  width: 58rem; */
+/* margin-left: 500px;
+  padding-left: 10px;
+  height: 38rem;
+  width: 58rem;
+  border-radius: 10rem; */
+
+/* Hero Section */
+.hero-section {
+  position: relative; /* Allows positioning of text over the image */
+  height: 400px; /* Adjust the height of the hero section */
+  overflow: hidden; /* Ensures no content overflows the container */
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Makes the image span the full width */
+  height: 100%; /* Makes the image cover the entire height */
+  object-fit: cover; /* Ensures the image covers the container proportionally */
+  filter: blur(5px); /* Adds a blur effect to the image */
+  z-index: -1; /* Places the image behind the content */
+}
+
+.hero-content {
+  position: relative; /* Keeps the content above the blurred image */
+  color: rgb(8, 6, 6); /* Makes the text stand out */
+  text-align: center; /* Centers the content */
+  padding: 100px 20px; /* Adjusts spacing inside the hero section */
+  font-size: 1.8rem; /* Adjust the size of the text */
+}
+p {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #ffdb4d;
+}
+
+/* Features Section */
+#facultyCount {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.features {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #d8d2cc, #eba985);
+}
+
+p {
+  font-size: 30px;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.feature {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+/* Call to Action */
+.cta {
+  background: linear-gradient(to left, #d8d2cc, #eba985);
+  color: black;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cta h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #d8d2cc, #eba985);
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 20px;
+}

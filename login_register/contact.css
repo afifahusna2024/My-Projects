@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #000000;
+  background: linear-gradient(to right, #f9d4c3, #ff772d);
+  text-align: center;
+}
+
+/* Navigation Bar */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.navbar {
+  background-color: #fb8100ff;
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 10px 0;
+}
+p {
+  color: #000000;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 3.5rem; /* Space between the links */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #db5f23ff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-logo {
+  height: 90px; /* Increase the height of the logo */
+  width: 80px; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between the logo and the text */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: black;
+}
+
+.contact-section {
+  background: white;
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  gap: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-item i {
+  font-size: 22px;
+  color: orange;
+}
+
+.branches-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.branches-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+.branches-list i {
+  color: orange;
+}
+
+/* Footer */
+footer {
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  font-size: 20px;
+}
